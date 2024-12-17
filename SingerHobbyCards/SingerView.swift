@@ -20,16 +20,17 @@ struct SingerView: View {
             Text((singerToShow.singerName))
                 .font(.system(.largeTitle, design: .default, weight: .heavy))
                 .padding()
+            Star()
             HStack(alignment: .bottom, spacing: 45) {
                 Text((singerToShow.monthlyListeners))
-                    .font(.system(.largeTitle, design: .default, weight: .thin))
-                VStack{
+                    .font(.system(.title2, design: .default, weight: .thin))
+                VStack(alignment: .leading){
                     Text((singerToShow.topSong))
-                        .font(.system(.largeTitle, design: .default, weight: .thin))
+                        .font(.system(.title2, design: .default, weight: .thin))
                     Text((singerToShow.secondSong))
-                        .font(.system(.largeTitle, design: .default, weight: .thin))
+                        .font(.system(.title2, design: .default, weight: .thin))
                     Text((singerToShow.thirdSong))
-                        .font(.system(.largeTitle, design: .default, weight: .thin))
+                        .font(.system(.title2, design: .default, weight: .thin))
                 }
             }
         }
