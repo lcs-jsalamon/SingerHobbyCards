@@ -17,10 +17,14 @@ struct SingerDetailView: View {
                 .font(.system(.largeTitle, design: .default, weight: .heavy))
                 .padding()
             Spacer()
-            Star()
-                .fill(singerToShow.primaryColor)
-                .aspectRatio(1.0/1.0, contentMode: .fit)
-            Spacer()
+            ZStack{
+                Star()
+                    .fill(singerToShow.primaryColor)
+                    .aspectRatio(1.0/1.0, contentMode: .fit)
+                Image(singerToShow.imageName)
+                    .clipShape(Circle())
+                Spacer()
+            }
             HStack(alignment: .bottom, spacing: 45) {
                 Text((singerToShow.monthlyListeners))
                     .font(.system(.title2, design: .default, weight: .thin))
