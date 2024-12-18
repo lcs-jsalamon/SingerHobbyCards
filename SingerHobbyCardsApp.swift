@@ -11,7 +11,7 @@ import SwiftUI
 struct SingerHobbyCardsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SingerDetailView(singerToShow: sza)
         }
     }
 }

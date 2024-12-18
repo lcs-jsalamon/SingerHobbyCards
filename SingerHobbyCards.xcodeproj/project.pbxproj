@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26DC472E2D11BEA100F43ACA /* Singers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC472A2D11BEA100F43ACA /* Singers.swift */; };
+		26DC472D2D11BEA100F43ACA /* SingerHobbyCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC47292D11BEA100F43ACA /* SingerHobbyCardsApp.swift */; };
+		26DC472E2D11BEA100F43ACA /* Singer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC472A2D11BEA100F43ACA /* Singer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,8 @@
 		26DC46EC2D11B6E500F43ACA /* SingerHobbyCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingerHobbyCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DC46FC2D11B6E700F43ACA /* SingerHobbyCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingerHobbyCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DC47062D11B6E700F43ACA /* SingerHobbyCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingerHobbyCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DC472A2D11BEA100F43ACA /* Singers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singers.swift; sourceTree = "<group>"; };
+		26DC47292D11BEA100F43ACA /* SingerHobbyCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerHobbyCardsApp.swift; sourceTree = "<group>"; };
+		26DC472A2D11BEA100F43ACA /* Singer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,8 +87,9 @@
 		26DC46E32D11B6E500F43ACA = {
 			isa = PBXGroup;
 			children = (
+				26DC47292D11BEA100F43ACA /* SingerHobbyCardsApp.swift */,
 				26DC473A2D11C38900F43ACA /* Model */,
-				26DC472A2D11BEA100F43ACA /* Singers.swift */,
+				26DC472A2D11BEA100F43ACA /* Singer.swift */,
 				26DC46EE2D11B6E500F43ACA /* SingerHobbyCards */,
 				26DC46FF2D11B6E700F43ACA /* SingerHobbyCardsTests */,
 				26DC47092D11B6E700F43ACA /* SingerHobbyCardsUITests */,
@@ -249,7 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DC472E2D11BEA100F43ACA /* Singers.swift in Sources */,
+				26DC472D2D11BEA100F43ACA /* SingerHobbyCardsApp.swift in Sources */,
+				26DC472E2D11BEA100F43ACA /* Singer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
