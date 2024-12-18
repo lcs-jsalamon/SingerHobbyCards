@@ -8,7 +8,7 @@ import SwiftUI
 
 import Foundation
 
-struct SingerView: View {
+struct SingerView1: View {
     
     //MARK: Store Properties
 
@@ -20,6 +20,7 @@ struct SingerView: View {
             Text((singerToShow.singerName))
                 .font(.system(.largeTitle, design: .default, weight: .heavy))
                 .padding()
+                Spacer()
             Star()
                 .aspectRatio(1.0/1.0, contentMode: .fit)
             Spacer()
@@ -40,7 +41,7 @@ struct SingerView: View {
 }
 
 #Preview {
-    SingerView(singerToShow: sza)
+    SingerView1(singerToShow: sza)
 }
 
 
