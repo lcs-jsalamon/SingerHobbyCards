@@ -8,8 +8,7 @@ import SwiftUI
 
 import Foundation
 
-struct Singer{
-    
+struct Singer {
     let singerName: String
     let monthlyListeners: String
     let topSong: String
@@ -24,4 +23,4 @@ let gracieAbrams = Singer(singerName: "Gracie Abrams", monthlyListeners: "43,443
 let meganMoroney = Singer(singerName: "Megan Moroney", monthlyListeners: "8,635,112", topSong: "1. Tennesse Orange", secondSong:"2. Am I Okay?", thirdSong: "3. I'm Not Pretty")
 let phoebeBridgers = Singer(singerName: "Phoebe Bridgers", monthlyListeners: "12,938,861", topSong: "1. Scott Street", secondSong: "2. Motion Sickness", thirdSong: "3. Waiting Room")
 
-let Singers = [sza,pinkPantheress,gracieAbrams,meganMoroney,phoebeBridgers]
+let singerList = [sza,pinkPantheress,gracieAbrams,meganMoroney,phoebeBridgers]
