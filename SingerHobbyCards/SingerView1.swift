@@ -21,6 +21,8 @@ struct SingerView: View {
                 .font(.system(.largeTitle, design: .default, weight: .heavy))
                 .padding()
             Star()
+                .aspectRatio(1.0/1.0, contentMode: .fit)
+            Spacer()
             HStack(alignment: .bottom, spacing: 45) {
                 Text((singerToShow.monthlyListeners))
                     .font(.system(.title2, design: .default, weight: .thin))
@@ -40,4 +42,5 @@ struct SingerView: View {
 #Preview {
     SingerView(singerToShow: sza)
 }
+
 
