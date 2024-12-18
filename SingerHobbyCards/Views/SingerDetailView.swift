@@ -13,18 +13,22 @@ struct SingerDetailView: View {
     let singerToShow: Singer
     var body: some View {
         VStack{
-            Text((singerToShow.singerName))
-                .font(.system(.largeTitle, design: .default, weight: .heavy))
-                .padding()
+                Text((singerToShow.singerName))
+                    .font(.system(.largeTitle, design: .default, weight: .heavy))
+                    .foregroundStyle(singerToShow.primaryColor)
+                    .padding()
             Spacer()
             ZStack{
                 Star()
                     .fill(singerToShow.primaryColor)
                     .aspectRatio(1.0/1.0, contentMode: .fit)
                 Image(singerToShow.imageName)
+                    .resizable()
+                    .scaledToFit()
                     .clipShape(Circle())
-                Spacer()
+                    .padding(125)
             }
+            Spacer()
             HStack(alignment: .bottom, spacing: 45) {
                 Text((singerToShow.monthlyListeners))
                     .font(.system(.title2, design: .default, weight: .thin))
